@@ -24,10 +24,32 @@ echo json_encode($search);
 */
 
 
-//carrega um usuario usando o login e a senha
+/*carrega um usuario usando o login e a senha
 $usuario = new Usuario();
 
 $usuario->login("root","oioioi");
 
 echo $usuario;
+*/
+
+
+/*CRIANDO UM NOVO USUARIO
+$aluno = new Usuario();
+
+$aluno->setDeslogin("diogo");
+$aluno->setDessenha("diogo3711");
+
+$aluno->insert();
+
+echo $aluno;
+*/
+
+/*
+$usuario = new Usuario();
+$usuario->loadById(5);
+$usuario->update("diogoloco","diogo1109");
+echo $usuario;
+*/
+
+
 ?>
