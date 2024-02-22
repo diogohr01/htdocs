@@ -1,0 +1,21 @@
+{
+    "name": "drodrigues/curso",
+    "description": "Curso de PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Drodrigues\\Curso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diogo Rodrigues",
+            "email": "diogorodrigues699@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+        "monolog/monolog": "1.0.*"
+    }
+}
